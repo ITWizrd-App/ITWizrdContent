@@ -1,0 +1,22 @@
+{
+  "id": "network-connectivity",
+  "title": "Troubleshooting Network Connectivity Issues",
+  "content": "Let's work through some steps to diagnose and resolve network connectivity problems.\n\nStart by checking if your device is connected to a Wi-Fi network. We’ll proceed with basic troubleshooting steps to determine if it’s an issue with the device, the network, or the router.\n\n### Basic Network Check\n\n1. Verify that your Wi-Fi is enabled on your device.\n2. Make sure you are within range of your Wi-Fi network.\n3. Confirm that other devices in the area are able to connect.\n\nIf these steps don’t help, let’s move to more specific checks.",
+  "choices": [
+    {
+      "text": "My device is connected but I still have issues",
+      "nextNodeId": "./router-restart",
+      "icon": "wifi"
+    },
+    {
+      "text": "My device is not connecting to Wi-Fi",
+      "nextNodeId": "./wifi-settings",
+      "icon": "settings"
+    },
+    {
+      "text": "I'm not sure",
+      "nextNodeId": "./check-wifi-settings",
+      "icon": "help_outline"
+    }
+  ]
+}

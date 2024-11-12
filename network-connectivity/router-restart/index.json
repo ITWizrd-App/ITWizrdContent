@@ -1,0 +1,22 @@
+{
+  "id": "router-restart",
+  "title": "Restart Your Router",
+  "content": "Restarting your router can often resolve connectivity issues by resetting its internal systems.\n\n### Steps to Restart Your Router\n\n1. **Unplug the power cable** from your router.\n2. **Wait for 10 seconds** to allow the router to fully power down.\n3. Plug the power cable back in and wait a few moments for the router to start up completely.\n\nOnce the router is fully powered on, check if your device can connect to the internet.",
+  "choices": [
+    {
+      "text": "Yes, it worked",
+      "nextNodeId": "/conclusion-success",
+      "icon": "check_circle"
+    },
+    {
+      "text": "No, it didn't work",
+      "nextNodeId": "./advanced-network-check",
+      "icon": "cancel"
+    },
+    {
+      "text": "I’m not sure",
+      "nextNodeId": "./check-device-connection",
+      "icon": "help_outline"
+    }
+  ]
+}

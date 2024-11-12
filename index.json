@@ -1,0 +1,32 @@
+{
+  "id": "initial-question",
+  "title": "What type of issue are you experiencing?",
+  "content": "Please select the category that best describes the problem you're having. This will help us guide you through the troubleshooting steps more effectively.",
+  "choices": [
+    {
+      "text": "Network Connectivity Issues",
+      "nextNodeId": "/network-connectivity",
+      "icon": "wifi"
+    },
+    {
+      "text": "Software/Application Issues",
+      "nextNodeId": "/software-issues",
+      "icon": "apps"
+    },
+    {
+      "text": "Hardware Issues",
+      "nextNodeId": "/hardware-issues",
+      "icon": "devices"
+    },
+    {
+      "text": "System Performance Issues",
+      "nextNodeId": "/system-performance",
+      "icon": "speed"
+    },
+    {
+      "text": "Other / Not Sure",
+      "nextNodeId": "/general-diagnostics",
+      "icon": "help_outline"
+    }
+  ]
+}

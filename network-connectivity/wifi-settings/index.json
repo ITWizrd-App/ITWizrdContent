@@ -1,0 +1,22 @@
+{
+  "id": "wifi-settings",
+  "title": "Check Your Wi-Fi Settings",
+  "content": "Let’s ensure that your device's Wi-Fi settings are correctly configured.\n\n### Steps to Check Wi-Fi Settings\n\n1. Open the **Settings** menu on your device.\n2. Navigate to **Wi-Fi** or **Network & Internet** settings.\n3. Ensure that **Wi-Fi is enabled**.\n4. Check if your device is connected to the correct network.\n   - If it’s not connected, select your network from the list and enter the password if prompted.\n\nIf these steps don’t resolve the issue, we’ll move on to further troubleshooting.",
+  "choices": [
+    {
+      "text": "Yes, it worked",
+      "nextNodeId": "/conclusion-success",
+      "icon": "check_circle"
+    },
+    {
+      "text": "No, it didn't work",
+      "nextNodeId": "./reset-network-settings",
+      "icon": "settings_backup_restore"
+    },
+    {
+      "text": "I'm not sure",
+      "nextNodeId": "./check-device-connection",
+      "icon": "help_outline"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "check-wifi-settings",
+  "title": "Confirm Your Wi-Fi Settings",
+  "content": "If you're unsure about your Wi-Fi settings, let’s go through a few more checks to help you confirm that everything is set up correctly.\n\n### Steps to Confirm Wi-Fi Settings\n\n1. **Open Settings** on your device.\n2. Go to **Wi-Fi** or **Network & Internet**.\n3. Make sure **Wi-Fi is turned on**.\n4. Look at the available networks and find your network (usually identified by the network name/SSID).\n5. Tap on your network to view details:\n   - **Signal strength**: Ensure the signal is strong. If it’s weak, try moving closer to the router.\n   - **Status**: Check if it says 'Connected'.\n   - **IP Address**: Ensure an IP address is assigned (often shown under 'Advanced' or 'Details').\n\nIf you’re connected but still have issues, let’s try further troubleshooting steps.",
+  "choices": [
+    {
+      "text": "Yes, I'm connected",
+      "nextNodeId": "../router-restart",
+      "icon": "wifi"
+    },
+    {
+      "text": "No, I'm not connected",
+      "nextNodeId": "../wifi-settings",
+      "icon": "settings"
+    },
+    {
+      "text": "I'm still unsure",
+      "nextNodeId": "/contact-support",
+      "icon": "help_outline"
+    }
+  ]
+}
